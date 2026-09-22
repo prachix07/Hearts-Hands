@@ -1,0 +1,8 @@
+{
+  "name": "Heart & Hands",
+  "description": "Handcrafted with Love, Personalized for You - Handcrafted personalized crafts marketplace with customer and artisan dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
