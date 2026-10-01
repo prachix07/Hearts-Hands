@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-cream: #FFF9F5;
+    --brand-rose: #E89FB2;
+    --brand-pink: #FDF2F4;
+    --brand-brown: #4A2C2C;
+    --brand-muted: #8C6D6D;
+    --brand-border: #F2D7D9;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FFF9F5;
+    color: #4A2C2C;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #F2D7D9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E89FB2;
+}
+
+/* Explicit aspect ratio definitions for guaranteed cross-browser and bundler rendering */
+.aspect-\[4\/3\],
+.aspect-4\/3,
+.aspect-4-3 {
+  aspect-ratio: 4 / 3;
+}
